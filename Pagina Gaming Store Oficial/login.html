@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN Y REGISTRO</title>
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body>
+    <main>
+        <div class="Contenedor">
+            <div class="Caja__trasera">
+                <div class="caja__trasera-login">
+                    <h3>¿Ya tienes una cuenta?</h3>
+                    <p>Iniciar secion para entrar a la pagina</p>
+                    <button id="btn__iniciar-sesion" >INICIAR SESION</button>
+                </div>
+                <div class="caja__trasera-register">
+                    <h3>¿Aun no tengo una cuenta?</h3>
+                    <p>Registrate para que puedas iniciar sesion</p>
+                    <button id="btn__registrarse" >REGISTRATE</button>
+                </div>
+            </div>
+            <!--Formulario de Login y Registro-->
+            <div class="contenedor__login-register">
+                <!--Login-->
+                <form action="" class="formulario_login">
+                    <h2>Iniciar Sesion</h2>
+                    <input type="text"  placeholder="Correo Electronico" id="txtCorreo" >
+                    <input type="password" placeholder="Contraseña" id="txtContrasenna" >
+                     
+                    <input type="button"  value="Ingresar" id="btnIngresar">
+                    
+                    
+                </form>
+            <!--Registro-->
+                <form action="" class="formulario_register">
+                    <h2>Registrarse</h2>
+                    <input type="text" placeholder="Nombre completo" required>
+                    <input type="text" placeholder="Correo Electronico" required>
+                    <input type="text" placeholder="Usuario" required>
+                    <input type="password" placeholder="Contraseña" required>
+                     <button>Entrar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="java-script/login.js"></script>
+    <script src="java-script/iniciosesion.js"></script>
+    <script src="java-script/js/logicaInterfazInicioSesion.js"></script>
+</body>
+</html>
